@@ -15,6 +15,12 @@ Estudio de la organización de los sectores , tendencias de digtalización y nec
 
 ### 2.1.2. Fichas Buyer Persona/User Persona
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ecf9c4ed-949c-4898-8172-ec038873d21e" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/179d647c-4a51-4308-b2a2-91855368a38a" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/138b4096-9ea7-44a3-a90f-ccbc20f20249" />
+
 ---
 
 ## 2.2. Análisis de la Necesidad
