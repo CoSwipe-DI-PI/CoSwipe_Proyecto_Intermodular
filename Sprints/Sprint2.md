@@ -89,6 +89,9 @@ El diseño de CoSwipe se articula sobre tres pilares teóricos consolidados en l
 | **3. Votación Síncrona** | Votación individual en Mazo Síncrono (Swipe PASS/LIKE o teclas A/D). | Decisión binaria y democrática. |
 | **Resultado Consenso** | MATCH unánime alcanzado en < 3 minutos con enlace directo. | Redirección inmediata a la plataforma elegida. |
 
+<img width="3600" height="2140" alt="image" src="https://github.com/user-attachments/assets/761d4834-6ffb-4be4-a821-10c349d94a1d" />
+
+
 #### 2.2.4.3. Listado Justificado de Requisitos Funcionales y Operativos
 
 ##### Requisitos Funcionales (RF)
@@ -144,6 +147,10 @@ Se han seleccionado tres soluciones reales del mercado que abordan de forma parc
 ### 2.3.3. Aportación Documental
 
 #### 2.3.3.1. Matriz Comparativa de Mercado
+
+<img width="649" height="755" alt="image" src="https://github.com/user-attachments/assets/aa0fff2d-5e6f-4add-9340-9a24ef182602" />
+
+<img width="3600" height="2480" alt="image" src="https://github.com/user-attachments/assets/8e927278-c437-4a07-a518-27637c2e9be7" />
 
 #### 2.3.3.2. Justificación de la Propuesta de Valor y Ventaja Competitiva
 
