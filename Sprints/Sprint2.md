@@ -166,24 +166,29 @@ La ventaja competitiva fundamental de CoSwipe radica en la combinación de dos p
 
 ## 2.4. Partes Interesadas (Stakeholders)
 
+Un Stakeholder es cualquier persona, grupo u organización que puede afectar a la App o verse afectado por él.
 Nuestra app entra en el mundo de la tecnología de consumo y el ocio digital (Consumer Tech & B2C Entertainment(Business to Consumer)), donde cada vez hay más plataformas de streaming y cuesta más ponerse de acuerdo sobre qué ver en grupo. Por eso, los grupos de interés van desde quienes desarrollamos y mantenemos la app hasta quienes la usan o pueden aprovecharla.
 
-- **Internos:** Equipo de desarrollo, tutor y mantenimiento de la app / host.
-- **Externos:** Usuarios (anfitriones, participantes y usuario final), Discord / WhatsApp, plataformas de streaming, APIs (IGDB, TMDB) e infraestructura cloud (Google Firebase).
+- **Internos**: Equipo de desarrollo, tutor y mantenimiento de la app / host.
+- **Externos**: Usuarios (anfitriones, participantes y usuario final), Plataformas de streaming(Netflix, Prime Video, etc.), Proveedores de datos(TMDB, IGDB / Twitch) e Proveedor cloud(Google).
 
 ### Matriz interesados (Poder vs Interés)
 
 | Rol / Grupo | Interno / Externo | Expectativas | Influencia (Poder) | Interés | Estrategia comunicación recomendada |
 |---|---|---|---|---|---|
-| **Equipo de desarrollo (Lucía, Felipe, Raúl, Sergio)** | Interno | Sacar el proyecto adelante en plazo, con buen código y una memoria completa. Que el reparto de tareas sea justo. | Alto | Alto | Involucrar. Daily, Sprint Planning, Review y Retrospective. Tablero de tareas compartido y chat del grupo. |
-| **Tutor** | Interno | Evaluar el proyecto intermodular y las entregas de cada Sprint. Que se cumplan los requisitos y se entregue a tiempo. | Alto | Alto | Involucrar. Entrega al final de cada Sprint y correo para dudas. |
-| **Mantenimiento de la app / Host** | Interno | Que la app y el servidor estén siempre activos, sin caídas y con la sincronización de las salas funcionando. | Medio | Alto | Reportar. Alertas de caídas, revisión del estado del servidor y aviso al equipo cuando haya incidencias. |
-| **Usuarios (anfitriones y participantes, de 18 a 31 años)** | Externo | Unirse a la sala en segundos sin registro, votar con swipe y decidir en menos de 3 minutos. | Medio | Alto | Involucrar. App fácil de entender, mensajes claros, encuestas rápidas tras usarla y reseñas en tiendas. |
-| **Discord / WhatsApp** | Externo | Que el enlace directo de la sala se comparta y abra bien en sus chats. | Bajo | Bajo | Monitorizar. Probar los enlaces en ambos y adaptar la app si cambian algo. |
-| **Plataformas de streaming (Netflix, Prime Video, etc.)** | Externo | Recibir tráfico hacia sus catálogos. Posibles socios de afiliación. | Medio | Bajo | Informar. Presentar el proyecto y proponer colaboración cuando haya una versión estable. |
-| **APIs (IGDB, TMDB)** | Externo | Que se respeten sus términos de uso, límites de peticiones y requisitos de atribución. Que la app haga un uso razonable de sus datos. | Alta | Bajo | Informar. Revisar la documentación y los cambios de versión, controlar el consumo de cuota y tener plan B si cambian condiciones. |
-| **Infraestructura Cloud (Google Firebase)** | Externo | Uso dentro de los límites del plan contratado, reglas de seguridad bien configuradas y sincronización en tiempo real estable. | Alta | Bajo | Informar. Consola de Firebase, alertas de cuota y costes, y revisión de avisos y cambios del servicio. |
-| **Usuario final** | Externo | App gratuita, rápida y sin fricción; que sus datos no se almacenen ni se usen sin su consentimiento; que las recomendaciones sean relevantes. | Media | Alto | Involucrar. Política de privacidad clara y canal de feedback dentro de la app. |
+| **Equipo de desarrollo** (Lucía, Felipe, Raúl, Sergio) | Interno | Sacar el proyecto adelante en plazo, con buen código y una memoria completa. Que el reparto de tareas sea justo. | Alto | Alto | **Involucrar**. Daily, Sprint Planning, Review y Retrospective. Tablero de tareas compartido y chat del grupo. |
+| **Tutor** | Interno | Evaluar el proyecto intermodular y las entregas de cada Sprint. Que se cumplan los requisitos y se entregue a tiempo. | Alto | Alto | **Involucrar**. Entrega al final de cada Sprint y correo para dudas. |
+| **Usuarios** (anfitriones y participantes, de 18 a 31 años) | Externo | Unirse a la sala en segundos sin registro, votar con swipe y decidir en menos de 3 minutos. App gratuita, rápida y sin fricción; que sus datos no se usen sin su consentimiento; que las recomendaciones sean relevantes. | Medio | Alto | **Involucrar**. App fácil de entender, mensajes claros, encuestas rápidas tras usarla, política de privacidad clara y canal de feedback dentro de la app. |
+| **Plataformas de streaming** (Netflix, Prime Video, etc.) | Externo | Recibir tráfico hacia sus catálogos. Posibles socios de afiliación. | Medio | Bajo | **Informar**. Presentar el proyecto y proponer colaboración cuando haya una versión estable. |
+| **Proveedores de datos** (TMDB, IGDB / Twitch) | Externo | Que se respeten sus términos de uso, límites de peticiones y requisitos de atribución. Que la app haga un uso razonable de sus datos. | Alto | Bajo | **Informar**. Revisar sus condiciones y cambios de versión, y tener un plan B si cambian los términos. |
+| **Proveedor cloud** (Google) | Externo | Que se use el servicio dentro de los límites del plan contratado y bajo sus condiciones de uso. | Alto | Bajo | **Informar**. Revisar avisos y cambios de condiciones del servicio. |
+
+
+<img width="1265" height="827" alt="Image" src="https://github.com/user-attachments/assets/fd95e97a-9063-4909-aa14-cac8cb7482df" />
+
+
+
+
 
 ---
 
