@@ -319,49 +319,50 @@ Por tanto, consideramos que el equipo dispone de los recursos y la capacidad té
 ## 2.6. ESTUDIO DE VIABILIDAD ECONÓMICA
 
 ### 2.6.1. Estimación de costes
-
-- **Desarrollo (Personal):** 4 desarrolladores júnior --> 95 h totales a 14,73 €/h (11,33 €/h [1] + 30% SS) = **1.400,00 €**
+- **Desarrollo (Personal):** 4 desarrolladores júnior --> 380 h totales (95 h por desarrollador) a 14,73 €/h (11,33 €/h [1] + 30% SS) = **5.597,40 €**
 - **Infraestructura y licencias:** Servidor Cloud (60,00 €) [3], licencia Google Play (23,00 €) [2], certificado de firma de código (Code Signing, 85,00 €) y dominio (12,00 €) [4] = **180,00 €**
 
+
 #### Amortización de Hardware (Lineal)
+Para el cálculo de la amortización de los **4 equipos portátiles** del equipo de desarrollo, aplicamos la fórmula lineal estándar de depreciación:
 
-Para el cálculo de la amortización de los 4 equipos portátiles del equipo de desarrollo, aplicamos la fórmula lineal estándar de depreciación:
 
-$$
-\text{Amortización} = \frac{\text{Valor Inicial Conjunto (2.400 €)}}{\text{Vida Útil (48 meses)}} \times \text{Meses (3)} = \text{150,00 €}
-$$
+$$\text{Amortización} = \frac{\text{Valor Inicial Conjunto} \, (2.400\text{ €})}{\text{Vida Útil} \, (48\text{ meses})} \times \text{Meses} \, (3) = \mathbf{150,00\text{ €}}$$
+
 
 #### 2.6.1.1. Costes indirectos, mantenimiento y soporte técnico post-despliegue
-
 - **Suministros:** Consumos proporcionales de electricidad y conectividad a la red durante la fase de desarrollo = **50,00 €**
+- **Previsión de mantenimiento y soporte técnico post-despliegue:** Bolsa de 6,8 horas de soporte técnico a 14,73 €/h para resolución de incidencias iniciales = **100,00 €**
 
-- **Previsión de mantenimiento y soporte técnico post-despliegue:** Bolsa de 6,8 horas de soporte técnico júnior a 14,73 €/h asignadas a la resolución de incidencias, aplicación de parches de seguridad y mantenimiento correctivo/adaptativo durante los primeros meses tras el lanzamiento = **100,00 €**
 
 #### Presupuesto desglosado
 
+
 | Partida | Coste (€) |
-|---|---:|
-| Personal [1] | 1.400,00 € |
-| Hardware (Amortización de 4 equipos) | 150,00 € |
-| Software / Servicios (Cloud [3], Dominio [4], Play Console [2] y Code Signing) | 180,00 € |
-| Costes indirectos (Suministros de electricidad y conectividad) | 50,00 € |
-| Mantenimiento y soporte técnico post-despliegue | 100,00 € |
-| **Subtotal** | **1.880,00 €** |
-| Contingencias (10%) | 188,00 € |
-| **TOTAL PROYECTO** | **2.068,00 €** |
+| :--- | ---: |
+| **Personal** (4 devs. x 95 h) [1] | 5.597,40 € |
+| **Hardware** (Amortización de 4 equipos) | 150,00 € |
+| **Software / Servicios** (Cloud [3], Dominio [4], Play Console [2] y Code Signing) | 180,00 € |
+| **Costes indirectos** (Suministros de electricidad y conectividad) | 50,00 € |
+| **Mantenimiento y soporte técnico post-despliegue** | 100,00 € |
+| **Subtotal** | **6.077,40 €** |
+| **Contingencias (10%)** | 607,74 € |
+| **TOTAL PROYECTO** | **6.685,14 €** |
 
-### 2.6.2. Ahorro operativo y ROI (a 24 meses)
 
+
+
+### 6.2. Ahorro operativo y ROI (a 24 meses)
 - **Ahorro para el usuario:** Reducción del tiempo de elección de 32,5 min a menos de 3 min.
-- **Retorno de la Inversión (ROI):** Tomando la nueva inversión total de 2.068,00 € y estimando unos ingresos netos por afiliación B2B de 6.500,00 € en 24 meses:
+- **Retorno de la Inversión (ROI):** Tomando la nueva inversión total de 6.685,14 € y estimando unos ingresos netos por afiliación B2B de 12.000,00 € en 24 meses:
 
-$$
-\text{ROI} = \frac{\text{Ingresos Netos} - \text{Inversión}}{\text{Inversión}} \times 100 = \frac{6.500,00 - 2.068,00}{2.068,00} \times 100 = 214,31
-$$
 
-- **Plazo de recuperación (Payback):** Estimando un flujo de caja constante de ~270,83 €/mes, alcanzamos el punto de equilibrio en 7,64 meses, demostrando la autosostenibilidad del proyecto a muy corto plazo.
+$$ROI = \frac{\text{Ingresos Netos} - \text{Inversión}}{\text{Inversión}} \times 100 = \frac{12.000,00 - 6.685,14}{6.685,14} \times 100 = \mathbf{79,50\%}$$
 
-### Referencias
+
+- **Plazo de recuperación (Payback):** Estimando un flujo de caja constante de ~500 €/mes, alcanzamos el punto de equilibrio en **13,37 meses**, demostrando la viabilidad a medio plazo del proyecto en equipo.
+
+## Referencias
 
 [1] "Career Programador Junior Salaries. Accedido el 21 de octubre de 2026. [En línea]. Disponible: https://es.indeed.com/career/programador-junior/salaries
 
