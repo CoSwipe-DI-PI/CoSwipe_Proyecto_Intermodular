@@ -169,7 +169,7 @@ La ventaja competitiva fundamental de CoSwipe radica en la combinación de dos p
 Un Stakeholder es cualquier persona, grupo u organización que puede afectar a la App o verse afectado por él.
 Nuestra app entra en el mundo de la tecnología de consumo y el ocio digital (Consumer Tech & B2C Entertainment(Business to Consumer)), donde cada vez hay más plataformas de streaming y cuesta más ponerse de acuerdo sobre qué ver en grupo. Por eso, los grupos de interés van desde quienes desarrollamos y mantenemos la app hasta quienes la usan o pueden aprovecharla.
 
-- **Internos**: Equipo de desarrollo, tutor y mantenimiento de la app / host.
+- **Internos**: Equipo de desarrollo y tutor
 - **Externos**: Usuarios (anfitriones, participantes y usuario final), Plataformas de streaming(Netflix, Prime Video, etc.), Proveedores de datos(TMDB, IGDB / Twitch) e Proveedor cloud(Google).
 
 ### Matriz interesados (Poder vs Interés)
